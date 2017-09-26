@@ -14,3 +14,63 @@ html {
   margin-top: 20px;
 
 }
+form {
+  display: inline-block;
+}
+#trazilica {
+  width: 632px;
+  line-height: 2.5;
+  border-radius: 0;
+  border: 1px solid rgb(200,200,200);
+  position: relative;
+  bottom: 15px;
+  left: 20px;
+  z-index: 6;
+  box-shadow: 3px 3px 1px rgb(220,220,220);
+  box-shadow: all;
+  padding-left: 15px;
+}
+/*dodaj pseudolase za focus  i hover*/
+#tipka {
+  position: relative;
+  bottom: 15px;
+  right: 60px;
+  z-index: 7;
+}
+#pov {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  bottom: 10px;
+  right: 40px;
+  z-index: 7;
+}
+#botun {
+  position: relative;
+  float: right;
+  padding: 10px 15px;
+  border-radius: 1px;
+  background-color: rgb(67, 135, 253);
+  font-size: 13px;
+  font-weight: 700;
+  color: white;
+  margin-top: 30px;
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+#slija {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  float: right;
+  margin-top: 37px;
+  margin-right: 30px;
+}
+#lociranje {
+  position: relative;
+  float: right;
+  margin-top: 30px;
+  margin-right: 30px;
+
+}
