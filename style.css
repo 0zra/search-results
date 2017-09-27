@@ -74,3 +74,39 @@ form {
   margin-right: 30px;
 
 }
+#sve {
+  color: rgb(66,133,244);
+  font-weight: bold;
+  position: relative;
+  top: 17px;
+  margin-left: 175px;
+  padding: 17px;
+  border-bottom: 3px solid rgb(66,133,244);
+
+}
+.gore {
+  color: rgb(119,119,119);
+  position: relative;
+  top: 17px;
+  padding: 17px;
+  text-decoration: none;
+}
+.gore:active {
+  color: rgb(66,133,244);
+}
+#alati:hover {
+  padding: 5px 17px;
+  border-radius: 1px;
+  border: 1px solid rgb(160,160,160)
+
+}
+#alati:active {
+  color: inherit;
+  background-color: rgb(140,140,140);
+}
+#rez {
+  position: relative;
+  top: 17px;
+  margin-left: 180px;
+  color: rgb(119,119,119);
+}
