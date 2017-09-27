@@ -1,6 +1,15 @@
 html {
   font-family: arial, sans-serif;
   font-size: 13px;
+  position:relative;
+  min-height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+
+
+}
+body {
+  min-width: 1000px;
 }
 a {
   text-decoration: none;
@@ -32,7 +41,9 @@ form {
   box-shadow: 3px 3px 1px rgb(220,220,220);
   box-shadow: all;
   padding-left: 15px;
+  color: black;
   
+
 }
 /*dodaj pseudolase za focus  i hover*/
 #tipka {
@@ -142,4 +153,41 @@ td {
 }
 .tekst {
   line-height: 1.4;
+}
+#donja_slija {
+  width:340px;
+  height: 90px;
+  margin-left: 280px;
+}
+#donji_linkovi {
+  position: relative;
+  z-index: 2;
+  bottom: 35px;
+  left: 346px;
+  letter-spacing: 4px;
+  font-weight: bold;
+  background-color: white;
+  margin-bottom: 70px;
+}
+#donji_linkovi a:hover {
+  text-decoration: underline;
+
+}
+.nag {
+  font-weight: bold;
+}
+footer {
+  background-color: rgb(250,250,250);
+  height: 70px;
+  border: 1px solid rgb(228,228,228);
+  position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+
+}
+#dole {
+  color: rgb(119,119,119) ;
+  margin-left: 175px;
+  margin-top: 20px;
 }
