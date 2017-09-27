@@ -2,6 +2,9 @@ html {
   font-family: arial, sans-serif;
   font-size: 13px;
 }
+a {
+  text-decoration: none;
+}
 .rub_gornji {
   background-color: rgb(250,250,250);
   height: 125px;
@@ -29,6 +32,7 @@ form {
   box-shadow: 3px 3px 1px rgb(220,220,220);
   box-shadow: all;
   padding-left: 15px;
+  
 }
 /*dodaj pseudolase za focus  i hover*/
 #tipka {
@@ -109,4 +113,33 @@ form {
   top: 17px;
   margin-left: 180px;
   color: rgb(119,119,119);
+}
+table {
+  margin-left: 180px;
+  margin-top: 50px;
+}
+td {
+  width: 600px;
+  padding-bottom: 20px;
+  border: 0px solid black;
+}
+.plavi {
+  font-size: 18px;
+  /*padding-bottom: 5px;*/
+
+}
+.zeleni {
+  color: rgb(0,102,33);
+}
+.obicni {
+  color:  rgb(84,84,84);
+}
+.svjetli {
+  color: rgb(128,128,128);
+}
+.linkovi:hover {
+  text-decoration: underline;
+}
+.tekst {
+  line-height: 1.4;
 }
